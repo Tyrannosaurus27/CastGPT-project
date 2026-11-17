@@ -1,0 +1,2 @@
+# PROJECT CASTGPT
+The end of Magical Education nears. In the past, young and prospecting wizards would need to spend years of their life dedicating themselves to learning magic, memorizing spells, and casting optimally. Those days are gone. Now the youth have found a new method of increasing their power: AI(Artificial Incantations). Lending their magic to a computer, students are able to effortlessly know when and how to cast nearly any spell. With AI being such a new and experimental technology, time will only tell how effective it will be.
