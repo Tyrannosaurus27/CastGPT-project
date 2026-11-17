@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bsvrb0icx0bvu"]
+
+[ext_resource type="PackedScene" uid="uid://88b5dg8be7um" path="res://Player.tscn" id="1_46nft"]
+[ext_resource type="Texture2D" uid="uid://b1riktbw6hdrd" path="res://real_welsh_patriots.png" id="2_q17yb"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Node2D" parent="." instance=ExtResource("1_46nft")]
+
+[node name="Stage" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Stage"]
+scale = Vector2(1.09078, 1.09078)
+texture = ExtResource("2_q17yb")

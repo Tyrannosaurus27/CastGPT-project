@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://d1jphmqw1srh"]
+
+[ext_resource type="Script" path="res://Fireball.gd" id="1_qjqkf"]
+[ext_resource type="Texture2D" uid="uid://du0p3apfj7kpg" path="res://New Piskel-1.png.png" id="2_c16xp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jj0k3"]
+radius = 37.0135
+
+[node name="Fireball" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_qjqkf")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_c16xp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_jj0k3")
+disabled = true
+
+[node name="Node2D" type="Node2D" parent="."]
